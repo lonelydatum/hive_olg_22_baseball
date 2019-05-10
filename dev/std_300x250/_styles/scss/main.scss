@@ -1,0 +1,27 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	// opacity: 1;
+	.bg{
+		transform-origin: 50% 50%;
+		@include pos-scale(-190, -125, 0.7);
+	}
+	.t1, .t2a, .t2b{
+		@include pos-scale(0, 0, .5);
+		clip: rect(0px,600px,500px,0px);
+	}
+}
+
+
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 300px;
+	height: 250px;
+}
+
