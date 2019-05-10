@@ -16,6 +16,12 @@
 	}
 }
 
+.frame2 {
+	.t4{
+		@include pos-scale(-23, -23, .58);
+	}
+}
+
 
 
 #banner{
