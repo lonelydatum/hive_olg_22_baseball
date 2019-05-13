@@ -5,7 +5,7 @@
 
 
 .frame1 {
-	// opacity: 1;
+	opacity: 1;
 	.bg{
 		transform-origin: 25% 50%;
 		// opacity:0;
@@ -23,6 +23,7 @@
 		@include pos-scale(0, 0, .5);
 		clip: rect(0px,546px,180px,0px);
 		// clip: rect(0px,868px,180px,0px);
+		// clip: rect(0px,1038px,180px,0px);
 		// clip: rect(0px,1288px,180px,0px);
 	}
 }

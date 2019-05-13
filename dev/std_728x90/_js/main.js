@@ -13,7 +13,8 @@ function start(){
 
 
 	tl.to('.t1a', .6, {clip:`rect(0px, 868px, ${hh}px, 0px)`, ease:Power3.easeInOut}, '-=.6')
-	tl.to('.t1a', .5, {clip:`rect(0px, 1288px, ${hh}px, 0px)`, ease:Power3.easeInOut}, '+=.5')
+	tl.to('.t1a', .5, {clip:`rect(0px, 1038px, ${hh}px, 0px)`, ease:Power3.easeInOut}, '+=.3')
+	tl.to('.t1a', .5, {clip:`rect(0px, 1288px, ${hh}px, 0px)`, ease:Power3.easeInOut}, '+=.4')
 	tl.to('.swoosh', .6, {clip:`rect(0px, ${1306}px, ${hh}px, ${1006}px)`, ease:Power3.easeInOut}, '-=.4')
 
 

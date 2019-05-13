@@ -210,6 +210,10 @@ sup {
   opacity: 0;
 }
 
+.frame1 {
+  opacity: 1;
+}
+
 .frame1 .bg {
   -webkit-transform-origin: 25% 50%;
   -ms-transform-origin: 25% 50%;
