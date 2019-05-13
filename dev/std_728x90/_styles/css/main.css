@@ -224,7 +224,7 @@ sup {
   position: absolute;
 }
 
-.frame1 .t1, .frame1 .swoosh {
+.frame1 .swoosh {
   -webkit-transform: translate(0px, 0px) scale(0.5, 0.5);
   -ms-transform: translate(0px, 0px) scale(0.5, 0.5);
   transform: translate(0px, 0px) scale(0.5, 0.5);
@@ -233,7 +233,19 @@ sup {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  clip: rect(0px, 1456px, 180px, 0px);
+  clip: rect(0px, 1306px, 180px, 1306px);
+}
+
+.frame1 .t1a {
+  -webkit-transform: translate(0px, 0px) scale(0.5, 0.5);
+  -ms-transform: translate(0px, 0px) scale(0.5, 0.5);
+  transform: translate(0px, 0px) scale(0.5, 0.5);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+  clip: rect(0px, 546px, 180px, 0px);
 }
 
 #banner {

@@ -12,8 +12,9 @@ function start(){
 	const hh = h*2
 
 
-	tl.from('.t1', 1.6, {clip:`rect(0px, 0px, ${hh}px, 0px)`, ease:Power3.easeInOut}, '-=.7')
-	tl.from('.swoosh', 1.3, {clip:`rect(0px, ${ww}px, ${hh}px, ${ww}px)`, ease:Power3.easeInOut}, '-=1.0')
+	tl.to('.t1a', .6, {clip:`rect(0px, 868px, ${hh}px, 0px)`, ease:Power3.easeInOut}, '-=.6')
+	tl.to('.t1a', .5, {clip:`rect(0px, 1288px, ${hh}px, 0px)`, ease:Power3.easeInOut}, '+=.5')
+	tl.to('.swoosh', .6, {clip:`rect(0px, ${1306}px, ${hh}px, ${1006}px)`, ease:Power3.easeInOut}, '-=.4')
 
 
 

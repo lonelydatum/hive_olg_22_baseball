@@ -13,9 +13,17 @@
 		// @include pos-scale(-364, -45, 0.5);
 		// @include pos-scale(-728, -45, 0.5);
 	}
-	.t1, .swoosh{
+	.swoosh{
 		@include pos-scale(0, 0, .5);
-		clip: rect(0px,1456px,180px,0px);
+		clip: rect(0px,1306px,180px,1306px);
+		// clip: rect(0px,1306px,180px,1006px);
+		
+	}
+	.t1a{
+		@include pos-scale(0, 0, .5);
+		clip: rect(0px,546px,180px,0px);
+		// clip: rect(0px,868px,180px,0px);
+		// clip: rect(0px,1288px,180px,0px);
 	}
 }
 
