@@ -237,9 +237,9 @@ sup {
 }
 
 .frame2 .t4 {
-  -webkit-transform: translate(-23px, -23px) scale(0.58, 0.58);
-  -ms-transform: translate(-23px, -23px) scale(0.58, 0.58);
-  transform: translate(-23px, -23px) scale(0.58, 0.58);
+  -webkit-transform: translate(-35px, -46px) scale(0.62, 0.62);
+  -ms-transform: translate(-35px, -46px) scale(0.62, 0.62);
+  transform: translate(-35px, -46px) scale(0.62, 0.62);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
