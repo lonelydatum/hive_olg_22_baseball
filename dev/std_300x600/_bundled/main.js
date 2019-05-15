@@ -36,7 +36,7 @@ function start() {
 
 	tl.add('f2', '+=.3');
 	tl.set('.frame2', { opacity: 1 }, 'f2');
-	tl.to('.bg', .5, { opacity: .7 }, 'f2');
+	// tl.to('.bg', .5, {opacity:.7}, 'f2')
 	tl.from('.t4', .3, { opacity: 0, scale: .4, ease: Power4.easeInOut });
 	tl.from('.logo_big', .3, { opacity: 0 }, '+=.2');
 	tl.from('.footer', .3, { opacity: 0 }, '+=.5');
