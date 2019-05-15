@@ -1,0 +1,54 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	opacity: 1;
+	.bg{
+		// transform-origin: 50% 50%;
+		@include pos-scale(-300, 0, 0.5);
+		// @include pos-scale(-30, 0, 0.6);
+	}
+	.t1, .t2a, .t2b{
+		@include pos-scale(0, 0, .5);
+		// clip: rect(0px,600px,500px,0px);
+	}
+
+	.t1{
+		@include pos-scale(0, 0, .5);
+		clip: rect(0px,330px,1200px,0px);		
+	}
+
+	.t2a{
+		@include pos-scale(0, 0, .5);
+		clip: rect(0px,600px,1200px,0px);		
+	}
+
+	.t2b{
+		@include pos-scale(0, 0, .5);
+		clip: rect(0px,590px,1200px,50px);
+	}
+}
+
+.frame2 {
+	.t4{
+		// @include pos-scale(-35, -46, .62);
+	}
+}
+
+
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 300px;
+	height: 600px;
+}
+
+
+#legalBtn{	
+	@include pos(7, 548);
+	// opacity: 1
+}
