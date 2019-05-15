@@ -26,7 +26,7 @@ function start(){
 	tl.set('.frame2', {opacity:1}, 'f2')	
 	// tl.to('.bg', .5, {opacity:.7}, 'f2')
 	tl.from('.t4', .3, {opacity:0, scale:.4, ease:Power4.easeInOut})
-	tl.from('.logo_big', .3, {y:59}, '+=.2')
+	tl.from('.logo_big', .5, {y:59}, '+=.2')
 	tl.from('.footer', .3, {opacity:0}, '+=.5')
 
 
