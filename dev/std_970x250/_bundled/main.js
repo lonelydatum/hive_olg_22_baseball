@@ -19,7 +19,7 @@ var _commonJsCommonJs = require('../../_common/js/common.js');
 function start() {
 	var tl = new TimelineMax();
 	tl.set('.frame1', { opacity: 1 });
-	tl.to('.bg', .8, { x: -610, y: -250, opacity: 1, ease: Power3.easeInOut, scale: .5 });
+	tl.to('.bg', .8, { x: -610, y: -232, opacity: 1, ease: Power3.easeInOut, scale: .5 });
 
 	var w = _commonJsCommonJs.size.w;
 	var h = _commonJsCommonJs.size.h;
